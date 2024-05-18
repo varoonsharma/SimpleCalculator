@@ -1,0 +1,14 @@
+} else {
+                    System.out.println("Error: Division by zero is not allowed.");
+                    return; // Exit the program
+                }
+                break;
+            default:
+                System.out.println("Error: Invalid operator.");
+                return; // Exit the program
+        }
+
+        // Display the result
+        System.out.println("The result is: " + result);
+    }
+}
